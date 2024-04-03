@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/inspiration">
+
+    <!-- RadioGroup for prescription selection (initially all unchecked) -->
+
+    <RadioGroup
+        android:id="@+id/radioGroupDisease"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="135dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="452dp"
+        android:textAlignment="center">
+
+        <RadioButton
+            android:id="@+id/radioButtonHIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HIV/AIDS" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDiabetes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diabetes" />
+
+        <RadioButton
+            android:id="@+id/radioButtonHypertension"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hypertension" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroupPrescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroupDisease"
+        android:visibility="gone">
+
+        <RadioButton
+            android:id="@+id/radioButtonStrong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Strong" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMild"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mild" />
+
+        <!-- Add more options as needed -->
+
+    </RadioGroup>
+
+    <!-- Button to confirm disease selection -->
+    <Button
+        android:id="@+id/buttonConfirmDisease"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="375dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="308dp"
+        android:text="Confirm Disease" />
+
+
+</RelativeLayout>

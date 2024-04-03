@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/inspiration">
+
+
+    <Button
+        android:id="@+id/proceed_payment"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="249dp"
+        android:text="proceed to checkout" />
+
+    <Button
+        android:id="@+id/add_address"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="483dp"
+        android:text="add your address for delivery" />
+
+    <ImageView
+        android:id="@+id/enter_address"
+        android:layout_width="51dp"
+        android:layout_height="54dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="321dp"
+        android:layout_marginBottom="482dp"
+        app:srcCompat="@drawable/address_button" />
+
+    <ImageView
+        android:id="@+id/pick_medicine"
+        android:layout_width="48dp"
+        android:layout_height="47dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="318dp"
+        android:layout_marginBottom="377dp"
+        app:srcCompat="@drawable/pick_medicine" />
+
+    <ImageView
+        android:id="@+id/checkout"
+        android:layout_width="52dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="320dp"
+        android:layout_marginBottom="245dp"
+        app:srcCompat="@drawable/checkout_order" />
+
+    <Button
+        android:id="@+id/pickup_medicine"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="379dp"
+        android:text="Pick medicine from the store" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="348dp"
+        android:layout_height="71dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="612dp"
+        android:text="Thank you for your order please checkout"
+        android:textAlignment="center"
+        android:textAppearance="@color/purple"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
